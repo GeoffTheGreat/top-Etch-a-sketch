@@ -10,8 +10,17 @@ body {
 .row {
   display: flex;
 }
-.col {
-  height: calc(100vh / 16);
-  width: calc(100vw / 16);
-  border: 2px solid black;
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+#header--btn {
+  padding: 5px;
+}
+/* .col {
+  border: 0.5px solid black;
+} */
+/* .col:hover {
+  background-color: black;
+} */
