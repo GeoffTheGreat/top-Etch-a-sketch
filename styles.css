@@ -18,9 +18,30 @@ body {
 #header--btn {
   padding: 5px;
 }
-/* .col {
-  border: 0.5px solid black;
-} */
-/* .col:hover {
-  background-color: black;
-} */
+
+.etch--body {
+  background-color: red;
+  margin: 10px auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.etch--screen {
+  background-color: white;
+  width: 80vh;
+  height: 82vh;
+  align-self: center;
+  border: 3px solid black;
+}
+.etch--buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.etch--buttons button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+}
